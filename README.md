@@ -1,4 +1,4 @@
-# Inteligencia-Artificial-Videojuegos
+# 🧠 Inteligencia-Artificial-Videojuegos
 
 **Repositorio de la asignatura de Inteligencia Artificial del Grado en Diseño y Desarrollo de Videojuegos.**  
 Incluye los apuntes de clase y las dos prácticas realizadas durante el curso, junto con sus respectivas memorias explicativas.
