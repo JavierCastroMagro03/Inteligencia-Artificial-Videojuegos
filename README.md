@@ -1,13 +1,13 @@
 # 🧠 Inteligencia-Artificial-Videojuegos
 
 **Repositorio de la asignatura de Inteligencia Artificial del Grado en Diseño y Desarrollo de Videojuegos.**  
-Incluye los apuntes de clase y las dos prácticas realizadas durante el curso, junto con sus respectivas memorias explicativas.
+Incluye los apuntes de clase y la práctica del primer bloque realizados durante el curso, también se incluye su respectiva memoria explicativa.
 
 ---
 
 ## Resumen del temario
 
-La asignatura se ha dividido en dos bloques temáticos:
+La asignatura se ha dividido en dos bloques de temario. A continuación, se desglosa el contenido del primer bloque:
 
 ### 🔹 Bloque I – Fundamentos y búsqueda
 
@@ -28,29 +28,29 @@ La asignatura se ha dividido en dos bloques temáticos:
 
 ---
 
-### 🔹 Bloque II – Aprendizaje automático y técnicas avanzadas
+## Práctica Bloque I
 
-1. **Aprendizaje automático**  
-   Introducción al aprendizaje supervisado, no supervisado y por refuerzo.
+Este repositorio contiene la primera práctica desarrollada durante la asignatura.
 
-2. **Redes neuronales**  
-   Desde el perceptrón hasta redes multicapa (MLP), backpropagation y entrenamiento de modelos.
-
-3. **Árboles de decisión**  
-   Algoritmos ID3 e ID4, entropía, ganancia de información y aplicaciones prácticas.
-
-4. **Predicción con n-gramas**  
-   Modelado de secuencias para predecir acciones del jugador o del entorno.
-
-5. **Aprendizaje por refuerzo**  
-   Fundamentos del Q-learning y su aplicación en videojuegos.
+Para una mejor comprensión de la implementación, se recomienda consultar la **memoria explicativa** disponible en PDF.
 
 ---
 
-## Prácticas
+## 📋 Enunciado original de la Práctica 1
 
-Este repositorio contiene las dos prácticas desarrolladas durante la asignatura.
+**Práctica 1: Búsqueda en el espacio de estados** consistía en implementar un agente inteligente en Unity™ (versión 2022.3.2f1, URP) capaz de desenvolverse en un mundo virtual utilizando algoritmos de búsqueda.
 
-Para una mejor comprensión de las implementaciones, se recomienda consultar las **memorias explicativas** disponibles en PDF
+El entorno estaba compuesto por una escena base (`PlayGroundScene`) con un tablero de 20x20 unidades, obstáculos, cofres, enemigos (zombies) y una salida. El agente debía resolver distintos escenarios, implementando los algoritmos desde cero en C#.
+
+### Objetivos específicos:
+
+1. **Búsqueda del camino de salida**
+   Implementar un algoritmo de búsqueda para encontrar el camino desde la posición inicial del agente hasta la salida (`Exit`), utilizando una heurística adecuada.
+
+2. **Búsqueda por subobjetivos**
+   El agente debía recoger todos los cofres (`Treasure`) y luego dirigirse a la salida, eligiendo el orden óptimo.
+
+3. **Atrapar a los enemigos (no implementado)**
+   Como reto adicional, el agente debía perseguir y atrapar enemigos (`Zombie`) en movimiento, lo cual requería implementar una búsqueda online.
 
 ---
